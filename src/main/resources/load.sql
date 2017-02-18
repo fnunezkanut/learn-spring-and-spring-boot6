@@ -1,7 +1,7 @@
-CREATE TABLE stock(
+CREATE TABLE IF NOT EXISTS stock(
   stock_id INT,
-  company_name VARCHAR2(50),
-  symbol VARCHAR2(10),
+  company_name VARCHAR(50),
+  symbol VARCHAR(10),
   price DECIMAL(10,2)
 );
 
